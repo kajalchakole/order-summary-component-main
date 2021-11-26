@@ -67,21 +67,24 @@ figure {
     margin: 5px 30px;
     padding: 10px;
 }
+
 .card-plan__details {
     display: grid;
     grid-template-columns: 1fr 2fr;
     justify-content: space-around;
     align-items: center;
 }
+.card-plan__details  header {
+    margin:0 0 0 10px;
+    text-align: left;
+}
 .card-plan__details figure {
     margin: 5px;
 }
 
-.card-plan__details h4 {
-    font-size: 14px;
-    font-weight: 900;
+.card-plan__details h4,.card-plan__details  h3 {
     margin: 0;
-    padding: 1px;
+    padding: 2px;
 }
 
 .card-plan__details h4:nth-child(2) {
