@@ -23,7 +23,7 @@ body {
     font-weight: 500;
     line-height: 24px;
     color: rgb(139, 139, 139);
-    width: 350px;
+    width: 400px;
     background-color: white;
     border-radius: 15px;
     display: grid;
@@ -49,7 +49,7 @@ figure {
 }
 
 .card {
-    padding: 15px;
+    padding: 20px;
 }
 
 .card article {
